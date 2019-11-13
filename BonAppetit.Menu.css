@@ -88,12 +88,12 @@ nav li a:hover{
     display: none;
 }
 
-.previous, .next{
-    width: 5%;
-    height: 15%;
-    top: 40%;
+/*.previous, .next{
+    width: 10%;
+    height: 100%;
+    top: 0;
     position: absolute;
-    background: white;
+    background: rgba(88, 88, 88, .2);
     z-index: 99;
     cursor: pointer;
 }
@@ -104,7 +104,7 @@ nav li a:hover{
 
 .next{
     right: 0;
-}
+}*/
 
 .slidebutton{
     width: 100%;
