@@ -1,0 +1,252 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+
+body{
+    background-color: black;
+}
+
+.wrapper{
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}
+
+header{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+header h1{
+    color: rgba(187, 88, 18, 0.979);
+    font-size: 8rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin-top: -1rem;
+    margin-bottom: 0;
+}
+
+header img{
+    height: 5rem;
+    width: 55rem;
+    margin-top: -1.2rem;
+}
+
+nav{
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(78, 78, 78);
+    overflow: hidden;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 0.8rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+nav li a{
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav li a:hover{
+    background: silver;
+}
+
+.slider{
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 80%;
+    height: 31rem;
+    background: rgb(168, 166, 166);
+    border: 4px solid red;
+    overflow: hidden;
+}
+
+.img-holder{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.img-holder img{
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+    
+}
+
+#img1, #img2, #img3, #img4{
+    display: none;
+}
+
+.previous, .next{
+    width: 5%;
+    height: 15%;
+    top: 40%;
+    position: absolute;
+    background: white;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.previous{
+    left: 0;
+}
+
+.next{
+    right: 0;
+}
+
+.slidebutton{
+    width: 100%;
+    height: 1rem;
+    bottom: 5%;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+}
+
+.dots{
+    top: -5%;
+    width: 10px;
+    height: 10px;
+    margin: 0 3px;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    background: white;
+}
+
+#img1:checked ~ #one,
+#img2:checked ~ #two,
+#img3:checked ~ #three,
+#img4:checked ~ #four{
+    z-index: 9;
+}
+
+#img1:checked ~ .slidebutton #dot1,
+#img2:checked ~ .slidebutton #dot2,
+#img3:checked ~ .slidebutton #dot3,
+#img4:checked ~ .slidebutton #dot4{
+    background: rgb(160, 158, 158);
+}
+
+.content{
+    box-sizing: border-box;
+    width: 100%;
+    height: 750px;
+    margin-bottom: 10px;
+}
+
+.menuframe{
+    width: 46rem;
+    height: 48rem;
+    overflow: hidden;
+    margin-left: 22%;
+    margin-right: auto;
+    display: block;
+    margin-top: 1rem;
+    z-index: -1;
+    position: absolute;
+}
+
+.dishes{
+    color: rgb(253, 249, 190);
+    text-align: center;
+    position: absolute;
+    margin-top: 120px;
+    left: 41%;
+}
+
+.dishes h1{
+    font-style: italic;
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.dishes h2{
+    font-weight: lighter;
+    font-family: Open Sans, Condensed;
+    
+}
+
+.dishes h1, h2{
+    line-height: 20px;
+}
+
+.dishes h3{
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.dishes h4{
+    font-family: Dosis;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.dishes h4, p{
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+footer{
+    background-color: grey;
+    width: 100%;
+    height: 200px;
+    margin-top: 5rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.left{
+    width: 35%;
+    text-align: center;
+}
+
+.middle{
+    justify-content: center;
+    width: 35%; 
+    
+}
+
+.right{
+    width: 30%;
+    justify-content: flex-end;
+}
+
+.icon1{
+background: rgba(255, 255, 255, .5);
+width: 1.9rem;
+height: 1.9rem;
+background-color:grey;
+display: flex; 
+float: left;
+padding-right: 1rem;
+}
+
+.icon2{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin-right: 1.9rem;
+}
+
+.right a:hover{
+    opacity: 0.7;
+    transition: 0.1s;
+}

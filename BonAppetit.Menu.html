@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BonAppetitMenuPage</title>
+    <link href="BonAppetit.Menu.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/ca5df483f3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Bon Appetit</h1>
+            <img src="image/line.jpg" alt="">
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="BonAppetit.Home.html">Home</a></li>
+                <li><a href="BonAppetit.Menu.html">Menu</a></li>
+                <li><a href="BonAppetit.Staff.html">Staff</a></li>
+                <li><a href="BonAppetit.Reservation.html">Reservation</a></li>
+            </ul>
+        </nav>
+
+        <div class="body">
+            <div class="slider">
+                <!-- radio button in the slider -->
+                <input type="radio" name="images" id="img1" checked>
+                <input type="radio" name="images" id="img2">
+                <input type="radio" name="images" id="img3">
+                <input type="radio" name="images" id="img4">
+
+                
+                <!-- picture one in the slider -->
+                <div class="img-holder" id="one">
+                    <img src="Image/food6.jpg" alt="">
+                    <label for="img3" class="previous"></label>
+                    <label for="img2" class="next"></label>
+                </div>
+
+                <!-- picture two in the slider -->
+                <div class="img-holder" id="two">
+                    <img src="Image/sever.jpg" alt="">
+                    <label for="img1" class="previous"></label>
+                    <label for="img3" class="next"></label>
+                </div>
+
+                <!-- picture three in the slider -->
+                <div class="img-holder" id="three">
+                    <img src="Image/food3.jpg" alt="">
+                    <label for="img2" class="previous"></label>
+                    <label for="img4" class="next"></label>
+                </div>
+                
+                <!-- picture four in the slider -->
+                <div class="img-holder" id="four">
+                    <img src="Image/food7.jpg" alt="">
+                    <label for="img3" class="previous"></label>
+                    <label for="img1" class="next"></label>
+                </div>
+
+                <!-- slider buttons -->
+                <div class="slidebutton">
+                    <label class="dots" id="dot1" for="img1"></label>
+                    <label class="dots" id="dot2" for="img2"></label>
+                    <label class="dots" id="dot3" for="img3"></label>
+                    <label class="dots" id="dot4" for="img4"></label>
+                 </div>
+
+            </div>
+
+            <div style="clear: both;">
+            </div>
+
+            <div class="content">
+                <!-- overlay the menu frame image with the content on top -->
+                <div class="menu">
+                <img class="menuframe" src="Image/menu3.jpg" alt="">
+                </div>
+
+                <div class="dishes">
+                    <h2>3 Course Menu</h2>
+                    <h2>Of</h2>
+                    <h1>Bon Appetit</h1>
+                    <br>
+                    <h3>Starter</h3>
+                    <h4>Italian Style Bruschetta</h4>
+                    <h4>Soup Of The Day</h4>
+                    <br>
+                    <h3>Main</h3>
+                    <h4>T-bone Steak</h4>
+                    <p>Or</p>
+                    <h4>Atlantic Salmon</h4>
+                    <p>Or</p>
+                    <h4>Chicken Pramagiana</h4>
+                    <br>
+                    <h3>Dessert</h3>
+                    <h4>Cookie and Cream Cheesecake</h4>
+                    <h4>Coffee Or Tea</h4>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="left">
+                <h3>Operating hours</h3>
+                    <p>Mon-Wed &nbsp; &nbsp; &nbsp; 11am-10pm</p>
+                    <p>Thu-Fri &nbsp; &nbsp; &nbsp; 10am-10pm</p>
+                    <p>Sat-Sun &nbsp; &nbsp; &nbsp; 9am-11pm</p>
+            </div>
+            
+            <div class="middle">
+                <h3>Contact Us</h3>
+                    <img class="icon1" src="Image/googlemap.png" alt="Address"><p>14 Spink Street, Brighton VIC 3186</p>
+                    <img class="icon1" src="Image/phone2.png" alt="Phone"><p>+61 36257554</p>
+                    <img class="icon1" src="Image/mail.png" alt="Email"><p>bonappetit@gmail.com</p>
+            </div>
+            
+            <div class="right">
+                <h3>Follow Us</h3>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img class="icon2" src="Image/facebook.png" alt="Facebook"></a>
+                
+                <a href="https://www.instagram.com" target="_blank">
+                    <img class="icon2" src="Image/instagram2.png" alt="Instagram"></a>
+                    
+                <a href="https://twitter.com" target="_blank">
+                    <img class="icon2" src="Image/twitter2.png" alt="Twitter"></a>
+                </div>
+        </footer>
+    </div>
+    
+</body>
+</html>

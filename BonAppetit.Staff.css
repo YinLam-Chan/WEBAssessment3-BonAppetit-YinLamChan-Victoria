@@ -1,0 +1,183 @@
+body{
+    background-color: black;
+}
+
+.wrapper{
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}
+
+header{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+header h1{
+    color: rgba(187, 88, 18, 0.979);
+    font-size: 8rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin-top: -1rem;
+    margin-bottom: 0;
+}
+
+header img{
+    height: 5rem;
+    width: 55rem;
+    margin-top: -1.2rem;
+}
+
+nav{
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(78, 78, 78);
+    overflow: hidden;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 0.8rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+nav li a{
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav li a:hover{
+    background: silver;
+}
+
+.kitchen img{
+    width: 95%;
+    margin: 1rem 2rem;
+    height: 28rem;
+}
+
+.container{
+    overflow: hidden;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 105rem;
+}
+
+.half-width{
+    width: 100%;
+    height: 30rem;
+    float: left;
+    position: relative;
+}
+
+.third-width{
+    width: 100%;
+    height: 28rem;
+    float: left;
+    position: relative;
+}
+
+.container60{
+    width: 60%;
+    border: 3px solid rgb(95, 95, 95);
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.container60 img{
+    width: 28rem;
+    height: 18rem;
+}
+
+ul li{
+    color: white;
+    line-height: 1.5rem;
+    padding-right: 1rem;
+}
+
+.container30{
+    width: 32%;
+    border: 3px solid rgb(95, 95, 95);
+    float: right;
+    margin-right: 30px;
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.container30 img{
+    height: 18rem;
+}
+
+.container25{
+    width: 28%;
+    border: 3px solid rgb(95, 95, 95);
+    margin-left: 30px;
+    margin-top: -120px;
+    float: left;
+    height: 24rem;
+    margin-right: 30px;
+}
+
+.container25 img{
+    width: 16rem;
+    height: 15rem;
+}
+
+footer{
+    background-color: grey;
+    width: 100%;
+    height: 200px;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    font-size: 1.2rem;
+}
+
+.left{
+    width: 35%;
+    text-align: center;
+}
+
+.middle{
+    justify-content: center;
+    width: 35%; 
+    
+}
+
+.right{
+    width: 30%;
+    justify-content: flex-end;
+}
+
+.icon1{
+background: rgba(255, 255, 255, .5);
+width: 1.9rem;
+height: 1.9rem;
+background-color:grey;
+display: flex; 
+float: left;
+padding-right: 1rem;
+}
+
+.icon2{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin-right: 1.9rem;
+}
+
+.right a:hover{
+    opacity: 0.7;
+    transition: 0.1s;
+}

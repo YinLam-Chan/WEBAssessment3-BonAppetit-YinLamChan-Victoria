@@ -1,0 +1,172 @@
+body{
+    background-color: black;
+}
+
+.wrapper{
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}
+
+header{
+    
+    text-align: center;
+    box-sizing: border-box;
+}
+
+header h1{
+    color: rgba(187, 88, 18, 0.979);
+    font-size: 8rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin-top: -1rem;
+    margin-bottom: 0;
+}
+
+header img{
+    height: 5rem;
+    width: 55rem;
+    margin-top: -1.2rem;
+}
+
+nav{
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(78, 78, 78);
+    overflow: hidden;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 0.8rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+nav li a{
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav li a:hover{
+    background: silver;
+}
+
+.reserve{
+    height: 44rem;
+}
+
+.side{
+    width: 40%;
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+
+.side h2{
+    margin-top: 26%;
+}
+
+.side p{
+    margin-left: 3rem;
+    margin-right: 3.5rem;
+    font-size: 1.2rem;
+}
+
+.side img{
+    height: 15rem;
+    width: 23rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.form{
+    float: right;
+    width: 60%;
+    color: white;
+    margin-top: 2rem;
+}
+
+.form p{
+    display: block;
+    color: rgb(170, 169, 170);
+    font-size: 1.2rem;
+}
+
+input{
+    display: block;
+    height: 1.3rem;
+    font-size: 1.3rem;
+}
+
+#input{
+    width: 20rem;
+}
+
+textarea{
+    display: block;
+    width: 35rem;
+    font-size: 1.3rem;
+}
+
+button{
+    width: 5.5rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    float: right;
+    margin-right: 8.8rem;
+    margin-top: 1.1rem;
+}
+
+footer{
+    background-color: grey;
+    width: 100%;
+    height: 200px;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    font-size: 1.2rem;
+}
+
+.left{
+    width: 35%;
+    text-align: center;
+}
+
+.middle{
+    justify-content: center;
+    width: 35%; 
+}
+
+.right{
+    width: 30%;
+    justify-content: flex-end;
+}
+
+.icon1{
+background: rgba(255, 255, 255, .5);
+width: 1.9rem;
+height: 1.9rem;
+background-color:grey;
+display: flex; 
+float: left;
+padding-right: 1rem;
+}
+
+.icon2{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin-right: 1.9rem;
+}
+
+.right a:hover{
+    opacity: 0.7;
+    transition: 0.1s;
+}
